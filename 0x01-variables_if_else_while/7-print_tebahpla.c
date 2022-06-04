@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: prints in reverse lower-case alphabets 
+ * Description: prints in reverse lower-case alphabets
  * Return: Always 0 (success)
  */
 int main(void)
@@ -16,4 +16,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
