@@ -26,8 +26,7 @@ int main(void)
 						putchar(o);
 					if ((n + m + l + o == 227) && (n == 57))
 					{
-					putchar(',');
-					putchar('');
+					break;
 					}
 					}
 				}
