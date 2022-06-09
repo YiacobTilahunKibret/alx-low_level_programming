@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers -,prints 0 to 14
+ * more_numbers - prints 0 to 14
  *
  * Return: void
  */
@@ -11,7 +11,7 @@ void more_numbers(void)
 	char i, j;
 	int k = 0;
 
-	whike(k < 10)
+	while (k < 10)
 	{
 		for (i = 0; i <= 14; i++)
 		{
