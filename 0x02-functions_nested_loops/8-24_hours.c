@@ -3,7 +3,6 @@
 /**
  * jack_bauer - Entry point
  * Description: prints 24 hours
- * @n: parameter declared
  * Return: last digit
  */
 
