@@ -21,6 +21,6 @@ int main(void)
 		}
 		j += 1;
 	}
-	printf("%ld\n", i);
+	printf("%ld\n", prime);
 	return (0);
 }
