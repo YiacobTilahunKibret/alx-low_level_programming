@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - prints most numbers 0 t 9
- * except 2 and 3
+ * except 2 and 4
  * Returns: void
  */
 
