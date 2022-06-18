@@ -10,22 +10,26 @@
 
 char *leet(char *s)
 {
-	int i = 0, j;
-	int length = 5;
-	char replace[5] = {'A', 'E', 'O', 'T', 'L'};
-	char replaceby[5] = {'4', '3', '0', '7', 'l'};
+	int a = 0, b = 0, l = 5;
+	char r[5] = {'A', 'E', 'O', 'T', 'L'};
+	char n[5] = {'4', '3', '0', '7', '1'};
 
-	while (s[i])
+	while (s[a])
 	{
-		j = 0;
+		b = 0;
 
-		while (j < length)
+		while (b < l)
 		{
-			if (s[i] == replace[j] || s[i] - 32 == replace[j])
-				s[i] = replaceby[j];
-			j++;
+			if (s[a] == r[b] || s[a] - 32 == r[b])
+			{
+				s[a] = n[b];
+			}
+
+			b++;
 		}
-		i++;
+
+		a++;
 	}
+
 	return (s);
 }
