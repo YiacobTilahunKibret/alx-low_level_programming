@@ -7,15 +7,20 @@
  *
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 	int i;
 
-	i = 0;
-	while (i < argc)
+	if (argc == 1)
+		printf("%d\n", argc - 1);
+	else
 	{
-		printf("%s\n", argv[i]);
-		i++;
+		for (i = 0; *argv; i++, argv++)
+			;
+
+		printf("%d\n", i - 1);
 	}
-		return (0);
+
+	return (0);
 }
